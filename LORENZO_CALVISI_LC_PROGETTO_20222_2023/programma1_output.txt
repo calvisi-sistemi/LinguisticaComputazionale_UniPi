@@ -1,0 +1,760 @@
+
+########## CORPUS N. 1 ##########
+########## religio_medici.txt ##########
+
+* Numero di token: 26170
+* Numero di frasi: 585
+* Numero medio di token per frase: 39.17606837606838
+* Numero medio di caratteri per token: 4.43899991273235
+* Numero di lemmi: 3313
+* Dimensioni del vocabolario: 
+     Nei primi 200 token:
+         * Dimensioni Vocabolario: 122
+         * TTR: 0.61
+
+     Nei primi 400 token:
+         * Dimensioni Vocabolario: 206
+         * TTR: 0.515
+
+     Nei primi 600 token:
+         * Dimensioni Vocabolario: 279
+         * TTR: 0.465
+
+     Nei primi 800 token:
+         * Dimensioni Vocabolario: 352
+         * TTR: 0.44
+
+     Nei primi 1000 token:
+         * Dimensioni Vocabolario: 414
+         * TTR: 0.414
+
+     Nei primi 1200 token:
+         * Dimensioni Vocabolario: 482
+         * TTR: 0.40166666666666667
+
+     Nei primi 1400 token:
+         * Dimensioni Vocabolario: 536
+         * TTR: 0.38285714285714284
+
+     Nei primi 1600 token:
+         * Dimensioni Vocabolario: 598
+         * TTR: 0.37375
+
+     Nei primi 1800 token:
+         * Dimensioni Vocabolario: 648
+         * TTR: 0.36
+
+     Nei primi 2000 token:
+         * Dimensioni Vocabolario: 700
+         * TTR: 0.35
+
+     Nei primi 2200 token:
+         * Dimensioni Vocabolario: 746
+         * TTR: 0.3390909090909091
+
+     Nei primi 2400 token:
+         * Dimensioni Vocabolario: 780
+         * TTR: 0.325
+
+     Nei primi 2600 token:
+         * Dimensioni Vocabolario: 832
+         * TTR: 0.32
+
+     Nei primi 2800 token:
+         * Dimensioni Vocabolario: 875
+         * TTR: 0.3125
+
+     Nei primi 3000 token:
+         * Dimensioni Vocabolario: 917
+         * TTR: 0.30566666666666664
+
+     Nei primi 3200 token:
+         * Dimensioni Vocabolario: 958
+         * TTR: 0.299375
+
+     Nei primi 3400 token:
+         * Dimensioni Vocabolario: 1013
+         * TTR: 0.2979411764705882
+
+     Nei primi 3600 token:
+         * Dimensioni Vocabolario: 1054
+         * TTR: 0.2927777777777778
+
+     Nei primi 3800 token:
+         * Dimensioni Vocabolario: 1113
+         * TTR: 0.29289473684210526
+
+     Nei primi 4000 token:
+         * Dimensioni Vocabolario: 1156
+         * TTR: 0.289
+
+     Nei primi 4200 token:
+         * Dimensioni Vocabolario: 1191
+         * TTR: 0.2835714285714286
+
+     Nei primi 4400 token:
+         * Dimensioni Vocabolario: 1234
+         * TTR: 0.28045454545454546
+
+     Nei primi 4600 token:
+         * Dimensioni Vocabolario: 1273
+         * TTR: 0.2767391304347826
+
+     Nei primi 4800 token:
+         * Dimensioni Vocabolario: 1309
+         * TTR: 0.27270833333333333
+
+     Nei primi 5000 token:
+         * Dimensioni Vocabolario: 1338
+         * TTR: 0.2676
+
+     Nei primi 5200 token:
+         * Dimensioni Vocabolario: 1376
+         * TTR: 0.26461538461538464
+
+     Nei primi 5400 token:
+         * Dimensioni Vocabolario: 1422
+         * TTR: 0.2633333333333333
+
+     Nei primi 5600 token:
+         * Dimensioni Vocabolario: 1462
+         * TTR: 0.26107142857142857
+
+     Nei primi 5800 token:
+         * Dimensioni Vocabolario: 1493
+         * TTR: 0.25741379310344825
+
+     Nei primi 6000 token:
+         * Dimensioni Vocabolario: 1539
+         * TTR: 0.2565
+
+     Nei primi 6200 token:
+         * Dimensioni Vocabolario: 1577
+         * TTR: 0.2543548387096774
+
+     Nei primi 6400 token:
+         * Dimensioni Vocabolario: 1604
+         * TTR: 0.250625
+
+     Nei primi 6600 token:
+         * Dimensioni Vocabolario: 1635
+         * TTR: 0.24772727272727274
+
+     Nei primi 6800 token:
+         * Dimensioni Vocabolario: 1663
+         * TTR: 0.24455882352941177
+
+     Nei primi 7000 token:
+         * Dimensioni Vocabolario: 1682
+         * TTR: 0.2402857142857143
+
+     Nei primi 7200 token:
+         * Dimensioni Vocabolario: 1723
+         * TTR: 0.23930555555555555
+
+     Nei primi 7400 token:
+         * Dimensioni Vocabolario: 1773
+         * TTR: 0.2395945945945946
+
+     Nei primi 7600 token:
+         * Dimensioni Vocabolario: 1805
+         * TTR: 0.2375
+
+     Nei primi 7800 token:
+         * Dimensioni Vocabolario: 1832
+         * TTR: 0.23487179487179488
+
+     Nei primi 8000 token:
+         * Dimensioni Vocabolario: 1861
+         * TTR: 0.232625
+
+     Nei primi 8200 token:
+         * Dimensioni Vocabolario: 1892
+         * TTR: 0.23073170731707318
+
+     Nei primi 8400 token:
+         * Dimensioni Vocabolario: 1921
+         * TTR: 0.2286904761904762
+
+     Nei primi 8600 token:
+         * Dimensioni Vocabolario: 1954
+         * TTR: 0.2272093023255814
+
+     Nei primi 8800 token:
+         * Dimensioni Vocabolario: 1996
+         * TTR: 0.2268181818181818
+
+     Nei primi 9000 token:
+         * Dimensioni Vocabolario: 2030
+         * TTR: 0.22555555555555556
+
+     Nei primi 9200 token:
+         * Dimensioni Vocabolario: 2060
+         * TTR: 0.22391304347826088
+
+     Nei primi 9400 token:
+         * Dimensioni Vocabolario: 2096
+         * TTR: 0.2229787234042553
+
+     Nei primi 9600 token:
+         * Dimensioni Vocabolario: 2127
+         * TTR: 0.2215625
+
+     Nei primi 9800 token:
+         * Dimensioni Vocabolario: 2153
+         * TTR: 0.2196938775510204
+
+     Nei primi 10000 token:
+         * Dimensioni Vocabolario: 2184
+         * TTR: 0.2184
+
+     Nei primi 10200 token:
+         * Dimensioni Vocabolario: 2212
+         * TTR: 0.2168627450980392
+
+     Nei primi 10400 token:
+         * Dimensioni Vocabolario: 2237
+         * TTR: 0.21509615384615385
+
+     Nei primi 10600 token:
+         * Dimensioni Vocabolario: 2266
+         * TTR: 0.21377358490566037
+
+     Nei primi 10800 token:
+         * Dimensioni Vocabolario: 2301
+         * TTR: 0.21305555555555555
+
+     Nei primi 11000 token:
+         * Dimensioni Vocabolario: 2328
+         * TTR: 0.21163636363636365
+
+     Nei primi 11200 token:
+         * Dimensioni Vocabolario: 2359
+         * TTR: 0.210625
+
+     Nei primi 11400 token:
+         * Dimensioni Vocabolario: 2379
+         * TTR: 0.20868421052631578
+
+     Nei primi 11600 token:
+         * Dimensioni Vocabolario: 2400
+         * TTR: 0.20689655172413793
+
+     Nei primi 11800 token:
+         * Dimensioni Vocabolario: 2426
+         * TTR: 0.20559322033898306
+
+     Nei primi 12000 token:
+         * Dimensioni Vocabolario: 2450
+         * TTR: 0.20416666666666666
+
+     Nei primi 12200 token:
+         * Dimensioni Vocabolario: 2471
+         * TTR: 0.20254098360655737
+
+     Nei primi 12400 token:
+         * Dimensioni Vocabolario: 2494
+         * TTR: 0.20112903225806453
+
+     Nei primi 12600 token:
+         * Dimensioni Vocabolario: 2505
+         * TTR: 0.1988095238095238
+
+     Nei primi 12800 token:
+         * Dimensioni Vocabolario: 2537
+         * TTR: 0.198203125
+
+     Nei primi 13000 token:
+         * Dimensioni Vocabolario: 2555
+         * TTR: 0.19653846153846155
+
+     Nei primi 13200 token:
+         * Dimensioni Vocabolario: 2577
+         * TTR: 0.19522727272727272
+
+     Nei primi 13400 token:
+         * Dimensioni Vocabolario: 2596
+         * TTR: 0.1937313432835821
+
+     Nei primi 13600 token:
+         * Dimensioni Vocabolario: 2627
+         * TTR: 0.19316176470588237
+
+     Nei primi 13800 token:
+         * Dimensioni Vocabolario: 2661
+         * TTR: 0.19282608695652173
+
+     Nei primi 14000 token:
+         * Dimensioni Vocabolario: 2681
+         * TTR: 0.1915
+
+     Nei primi 14200 token:
+         * Dimensioni Vocabolario: 2729
+         * TTR: 0.1921830985915493
+
+     Nei primi 14400 token:
+         * Dimensioni Vocabolario: 2752
+         * TTR: 0.19111111111111112
+
+     Nei primi 14600 token:
+         * Dimensioni Vocabolario: 2767
+         * TTR: 0.18952054794520548
+
+     Nei primi 14800 token:
+         * Dimensioni Vocabolario: 2779
+         * TTR: 0.18777027027027027
+
+     Nei primi 15000 token:
+         * Dimensioni Vocabolario: 2801
+         * TTR: 0.18673333333333333
+
+     Nei primi 15200 token:
+         * Dimensioni Vocabolario: 2820
+         * TTR: 0.18552631578947368
+
+     Nei primi 15400 token:
+         * Dimensioni Vocabolario: 2834
+         * TTR: 0.18402597402597404
+
+     Nei primi 15600 token:
+         * Dimensioni Vocabolario: 2857
+         * TTR: 0.18314102564102563
+
+     Nei primi 15800 token:
+         * Dimensioni Vocabolario: 2868
+         * TTR: 0.18151898734177216
+
+     Nei primi 16000 token:
+         * Dimensioni Vocabolario: 2886
+         * TTR: 0.180375
+
+     Nei primi 16200 token:
+         * Dimensioni Vocabolario: 2916
+         * TTR: 0.18
+
+     Nei primi 16400 token:
+         * Dimensioni Vocabolario: 2942
+         * TTR: 0.17939024390243902
+
+     Nei primi 16600 token:
+         * Dimensioni Vocabolario: 2954
+         * TTR: 0.17795180722891565
+
+     Nei primi 16800 token:
+         * Dimensioni Vocabolario: 2974
+         * TTR: 0.17702380952380953
+
+     Nei primi 17000 token:
+         * Dimensioni Vocabolario: 3000
+         * TTR: 0.17647058823529413
+
+     Nei primi 17200 token:
+         * Dimensioni Vocabolario: 3032
+         * TTR: 0.17627906976744187
+
+     Nei primi 17400 token:
+         * Dimensioni Vocabolario: 3049
+         * TTR: 0.17522988505747125
+
+     Nei primi 17600 token:
+         * Dimensioni Vocabolario: 3063
+         * TTR: 0.17403409090909092
+
+     Nei primi 17800 token:
+         * Dimensioni Vocabolario: 3084
+         * TTR: 0.17325842696629212
+
+     Nei primi 18000 token:
+         * Dimensioni Vocabolario: 3104
+         * TTR: 0.17244444444444446
+
+     Nei primi 18200 token:
+         * Dimensioni Vocabolario: 3130
+         * TTR: 0.17197802197802198
+
+     Nei primi 18400 token:
+         * Dimensioni Vocabolario: 3165
+         * TTR: 0.17201086956521738
+
+     Nei primi 18600 token:
+         * Dimensioni Vocabolario: 3192
+         * TTR: 0.17161290322580644
+
+     Nei primi 18800 token:
+         * Dimensioni Vocabolario: 3220
+         * TTR: 0.17127659574468085
+
+     Nei primi 19000 token:
+         * Dimensioni Vocabolario: 3240
+         * TTR: 0.1705263157894737
+
+     Nei primi 19200 token:
+         * Dimensioni Vocabolario: 3261
+         * TTR: 0.16984375
+
+     Nei primi 19400 token:
+         * Dimensioni Vocabolario: 3293
+         * TTR: 0.16974226804123713
+
+     Nei primi 19600 token:
+         * Dimensioni Vocabolario: 3314
+         * TTR: 0.16908163265306123
+
+     Nei primi 19800 token:
+         * Dimensioni Vocabolario: 3332
+         * TTR: 0.16828282828282828
+
+     Nei primi 20000 token:
+         * Dimensioni Vocabolario: 3351
+         * TTR: 0.16755
+
+     Nei primi 20200 token:
+         * Dimensioni Vocabolario: 3378
+         * TTR: 0.16722772277227724
+
+     Nei primi 20400 token:
+         * Dimensioni Vocabolario: 3394
+         * TTR: 0.16637254901960785
+
+     Nei primi 20600 token:
+         * Dimensioni Vocabolario: 3415
+         * TTR: 0.1657766990291262
+
+     Nei primi 20800 token:
+         * Dimensioni Vocabolario: 3434
+         * TTR: 0.16509615384615384
+
+     Nei primi 21000 token:
+         * Dimensioni Vocabolario: 3463
+         * TTR: 0.16490476190476192
+
+     Nei primi 21200 token:
+         * Dimensioni Vocabolario: 3481
+         * TTR: 0.16419811320754718
+
+     Nei primi 21400 token:
+         * Dimensioni Vocabolario: 3494
+         * TTR: 0.16327102803738316
+
+     Nei primi 21600 token:
+         * Dimensioni Vocabolario: 3516
+         * TTR: 0.16277777777777777
+
+     Nei primi 21800 token:
+         * Dimensioni Vocabolario: 3534
+         * TTR: 0.16211009174311927
+
+     Nei primi 22000 token:
+         * Dimensioni Vocabolario: 3549
+         * TTR: 0.1613181818181818
+
+     Nei primi 22200 token:
+         * Dimensioni Vocabolario: 3561
+         * TTR: 0.1604054054054054
+
+     Nei primi 22400 token:
+         * Dimensioni Vocabolario: 3578
+         * TTR: 0.15973214285714285
+
+     Nei primi 22600 token:
+         * Dimensioni Vocabolario: 3599
+         * TTR: 0.15924778761061947
+
+     Nei primi 22800 token:
+         * Dimensioni Vocabolario: 3612
+         * TTR: 0.15842105263157893
+
+     Nei primi 23000 token:
+         * Dimensioni Vocabolario: 3620
+         * TTR: 0.15739130434782608
+
+     Nei primi 23200 token:
+         * Dimensioni Vocabolario: 3642
+         * TTR: 0.15698275862068967
+
+     Nei primi 23400 token:
+         * Dimensioni Vocabolario: 3654
+         * TTR: 0.15615384615384614
+
+     Nei primi 23600 token:
+         * Dimensioni Vocabolario: 3672
+         * TTR: 0.15559322033898304
+
+     Nei primi 23800 token:
+         * Dimensioni Vocabolario: 3690
+         * TTR: 0.1550420168067227
+
+     Nei primi 24000 token:
+         * Dimensioni Vocabolario: 3710
+         * TTR: 0.15458333333333332
+
+     Nei primi 24200 token:
+         * Dimensioni Vocabolario: 3722
+         * TTR: 0.15380165289256198
+
+     Nei primi 24400 token:
+         * Dimensioni Vocabolario: 3733
+         * TTR: 0.15299180327868853
+
+     Nei primi 24600 token:
+         * Dimensioni Vocabolario: 3758
+         * TTR: 0.15276422764227643
+
+     Nei primi 24800 token:
+         * Dimensioni Vocabolario: 3779
+         * TTR: 0.1523790322580645
+
+     Nei primi 25000 token:
+         * Dimensioni Vocabolario: 3798
+         * TTR: 0.15192
+
+     Nei primi 25200 token:
+         * Dimensioni Vocabolario: 3813
+         * TTR: 0.1513095238095238
+
+     Nei primi 25400 token:
+         * Dimensioni Vocabolario: 3829
+         * TTR: 0.150748031496063
+
+     Nei primi 25600 token:
+         * Dimensioni Vocabolario: 3837
+         * TTR: 0.1498828125
+
+     Nei primi 25800 token:
+         * Dimensioni Vocabolario: 3848
+         * TTR: 0.14914728682170542
+
+     Nei primi 26000 token:
+         * Dimensioni Vocabolario: 3864
+         * TTR: 0.14861538461538462
+
+Hapax nelle prime 500 parole: 188
+Hapax nelle prime 1000 parole: 299
+Hapax nelle prime 3000 parole: 636
+Hapax in tutto il corpus: 2281
+
+
+
+########## CORPUS N. 2 ##########
+########## origin_of_the_species.txt ##########
+
+* Numero di token: 10592
+* Numero di frasi: 269
+* Numero medio di token per frase: 35.74721189591078
+* Numero medio di caratteri per token: 4.86959234608985
+* Numero di lemmi: 1467
+* Dimensioni del vocabolario: 
+     Nei primi 200 token:
+         * Dimensioni Vocabolario: 123
+         * TTR: 0.615
+
+     Nei primi 400 token:
+         * Dimensioni Vocabolario: 197
+         * TTR: 0.4925
+
+     Nei primi 600 token:
+         * Dimensioni Vocabolario: 250
+         * TTR: 0.4166666666666667
+
+     Nei primi 800 token:
+         * Dimensioni Vocabolario: 300
+         * TTR: 0.375
+
+     Nei primi 1000 token:
+         * Dimensioni Vocabolario: 359
+         * TTR: 0.359
+
+     Nei primi 1200 token:
+         * Dimensioni Vocabolario: 396
+         * TTR: 0.33
+
+     Nei primi 1400 token:
+         * Dimensioni Vocabolario: 439
+         * TTR: 0.31357142857142856
+
+     Nei primi 1600 token:
+         * Dimensioni Vocabolario: 491
+         * TTR: 0.306875
+
+     Nei primi 1800 token:
+         * Dimensioni Vocabolario: 531
+         * TTR: 0.295
+
+     Nei primi 2000 token:
+         * Dimensioni Vocabolario: 570
+         * TTR: 0.285
+
+     Nei primi 2200 token:
+         * Dimensioni Vocabolario: 601
+         * TTR: 0.2731818181818182
+
+     Nei primi 2400 token:
+         * Dimensioni Vocabolario: 633
+         * TTR: 0.26375
+
+     Nei primi 2600 token:
+         * Dimensioni Vocabolario: 672
+         * TTR: 0.25846153846153846
+
+     Nei primi 2800 token:
+         * Dimensioni Vocabolario: 712
+         * TTR: 0.2542857142857143
+
+     Nei primi 3000 token:
+         * Dimensioni Vocabolario: 753
+         * TTR: 0.251
+
+     Nei primi 3200 token:
+         * Dimensioni Vocabolario: 795
+         * TTR: 0.2484375
+
+     Nei primi 3400 token:
+         * Dimensioni Vocabolario: 829
+         * TTR: 0.24382352941176472
+
+     Nei primi 3600 token:
+         * Dimensioni Vocabolario: 858
+         * TTR: 0.23833333333333334
+
+     Nei primi 3800 token:
+         * Dimensioni Vocabolario: 880
+         * TTR: 0.23157894736842105
+
+     Nei primi 4000 token:
+         * Dimensioni Vocabolario: 908
+         * TTR: 0.227
+
+     Nei primi 4200 token:
+         * Dimensioni Vocabolario: 936
+         * TTR: 0.22285714285714286
+
+     Nei primi 4400 token:
+         * Dimensioni Vocabolario: 971
+         * TTR: 0.22068181818181817
+
+     Nei primi 4600 token:
+         * Dimensioni Vocabolario: 1008
+         * TTR: 0.21913043478260869
+
+     Nei primi 4800 token:
+         * Dimensioni Vocabolario: 1036
+         * TTR: 0.21583333333333332
+
+     Nei primi 5000 token:
+         * Dimensioni Vocabolario: 1051
+         * TTR: 0.2102
+
+     Nei primi 5200 token:
+         * Dimensioni Vocabolario: 1064
+         * TTR: 0.20461538461538462
+
+     Nei primi 5400 token:
+         * Dimensioni Vocabolario: 1087
+         * TTR: 0.2012962962962963
+
+     Nei primi 5600 token:
+         * Dimensioni Vocabolario: 1103
+         * TTR: 0.1969642857142857
+
+     Nei primi 5800 token:
+         * Dimensioni Vocabolario: 1118
+         * TTR: 0.19275862068965519
+
+     Nei primi 6000 token:
+         * Dimensioni Vocabolario: 1132
+         * TTR: 0.18866666666666668
+
+     Nei primi 6200 token:
+         * Dimensioni Vocabolario: 1158
+         * TTR: 0.1867741935483871
+
+     Nei primi 6400 token:
+         * Dimensioni Vocabolario: 1177
+         * TTR: 0.18390625
+
+     Nei primi 6600 token:
+         * Dimensioni Vocabolario: 1200
+         * TTR: 0.18181818181818182
+
+     Nei primi 6800 token:
+         * Dimensioni Vocabolario: 1225
+         * TTR: 0.1801470588235294
+
+     Nei primi 7000 token:
+         * Dimensioni Vocabolario: 1261
+         * TTR: 0.18014285714285713
+
+     Nei primi 7200 token:
+         * Dimensioni Vocabolario: 1282
+         * TTR: 0.17805555555555555
+
+     Nei primi 7400 token:
+         * Dimensioni Vocabolario: 1307
+         * TTR: 0.17662162162162162
+
+     Nei primi 7600 token:
+         * Dimensioni Vocabolario: 1324
+         * TTR: 0.17421052631578948
+
+     Nei primi 7800 token:
+         * Dimensioni Vocabolario: 1364
+         * TTR: 0.17487179487179488
+
+     Nei primi 8000 token:
+         * Dimensioni Vocabolario: 1393
+         * TTR: 0.174125
+
+     Nei primi 8200 token:
+         * Dimensioni Vocabolario: 1422
+         * TTR: 0.17341463414634145
+
+     Nei primi 8400 token:
+         * Dimensioni Vocabolario: 1436
+         * TTR: 0.17095238095238094
+
+     Nei primi 8600 token:
+         * Dimensioni Vocabolario: 1470
+         * TTR: 0.17093023255813952
+
+     Nei primi 8800 token:
+         * Dimensioni Vocabolario: 1496
+         * TTR: 0.17
+
+     Nei primi 9000 token:
+         * Dimensioni Vocabolario: 1528
+         * TTR: 0.16977777777777778
+
+     Nei primi 9200 token:
+         * Dimensioni Vocabolario: 1554
+         * TTR: 0.16891304347826086
+
+     Nei primi 9400 token:
+         * Dimensioni Vocabolario: 1579
+         * TTR: 0.16797872340425532
+
+     Nei primi 9600 token:
+         * Dimensioni Vocabolario: 1601
+         * TTR: 0.16677083333333334
+
+     Nei primi 9800 token:
+         * Dimensioni Vocabolario: 1622
+         * TTR: 0.16551020408163264
+
+     Nei primi 10000 token:
+         * Dimensioni Vocabolario: 1645
+         * TTR: 0.1645
+
+     Nei primi 10200 token:
+         * Dimensioni Vocabolario: 1663
+         * TTR: 0.1630392156862745
+
+     Nei primi 10400 token:
+         * Dimensioni Vocabolario: 1692
+         * TTR: 0.1626923076923077
+
+Hapax nelle prime 500 parole: 143
+Hapax nelle prime 1000 parole: 223
+Hapax nelle prime 3000 parole: 415
+Hapax in tutto il corpus: 876
+
+
