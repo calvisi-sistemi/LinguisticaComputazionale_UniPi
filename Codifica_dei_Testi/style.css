@@ -1,0 +1,67 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.navbar{
+    background-color: #333;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+    padding: 14px 20px;
+    position: sticky;
+}
+
+.navbar a{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.navbar a:hover {
+    color: rgb(0, 255, 221);
+}
+
+/* Main content styles */
+.main {
+    margin: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/* One-column-per-section layout */
+.section {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Link styles */
+a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.flex-container {
+    display: flex;
+}
+  
+.flex-item {
+    flex: 2;
+}
