@@ -1,0 +1,807 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xslt"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<!-- Da fare:
+   * Descrizione fisica
+-->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="corpus">
+  <teiHeader xml:lang="it">  
+    <fileDesc>
+      <!-- Informazioni sul titolo -->
+     <titleStmt xml:id="titolo_digitale">
+        <title type="full" sameAs="#titolo_completo">
+          <title type="main" sameAs="#titolo_principale">
+            Idee per tre poesie 
+          </title>
+          <title type="sub" sameAs="#sottotitolo"> 
+            balenate a
+            <persName sameAs="#nome_autore" ref="#fulvio_panzieri">
+              <forename>Fulvio</forename>
+              <surname>Panzieri</surname>
+            </persName>
+          </title>
+        </title>
+      </titleStmt>
+      <!-- Fine informazioni sul titolo -->
+      
+      <!-- Informazioni sulla presente edizione digitale-->
+      <editionStmt xml:id="edizione_digitale">
+        <edition>
+          <title type="full">
+            <title type="main">Idee per Tre Poesie</title>
+            <title type="sub">Edizione TEI</title>
+          </title>
+          <date when="2024-06">
+            Giugno 2024
+          </date>
+        </edition>
+        <respStmt xml:id="curatela_digitale">
+          <resp>curata da</resp>
+          <persName ref="#lorenzo_calvisi" sameAs="#nome_curatore">
+            <forename>Lorenzo</forename>
+            <surname>Calvisi</surname>
+          </persName>
+        </respStmt>
+        <respStmt xml:id="supervisione">
+          <resp>sotto la supervisione del</resp>
+          <persName ref="angelo_mario_del_grosso">
+            <roleName role="docente">
+              <abbr type="title">prof.</abbr>
+            </roleName>
+             <forename>Angelo Mario</forename>
+             <surname>Del Grosso</surname>
+         </persName>
+        </respStmt>
+      </editionStmt>
+      <!-- Fine informazioni sull"edizione -->
+
+      <extent xml:id="digital_extent">
+        <measure unit="MiB" quantity="6.4">Circa 6.4 MB</measure>
+      </extent> 
+
+      <!-- Informazioni sulla pubblicazione dell"edizione digitale -->
+      <publicationStmt xml:id="pubblicazione_digitale">
+        <publisher xml:id="digital_publisher">
+          <orgName>Università di Pisa</orgName>
+        </publisher>
+        <pubPlace>
+          <settlement type="città">Pisa</settlement>
+          <country key="it">Italia</country>
+        </pubPlace>
+        <availability>
+          <p>
+            Testo liberamente accessibile. 
+          </p>
+        </availability>
+      </publicationStmt>
+      <!--  Fine informazioni -->
+
+      <!-- Descrizione del documento fisico originale -->
+      <sourceDesc xml:id="descrizione_fonte">
+        <biblStruct xml:id="dati_bibliografici_comuni">
+          <monogr>    
+            <author ref="#fulvio_panzieri">
+              <persName sameAs="#nome_autore">
+                <forename>Fulvio</forename>
+                <surname>Panzieri</surname>
+              </persName>
+            </author>
+
+            <title type="full" xml:id="titolo_completo">
+              <title type="main" xml:id="titolo_principale">
+                Idee per tre poesie 
+              </title>
+              <title type="sub" xml:id="sottotitolo"> 
+                balenate a
+                <persName ref="#nome_autore">
+                  <forename>Fulvio</forename>
+                  <surname>Panzieri</surname>
+                </persName>
+              </title>
+            </title>
+
+            <imprint>
+              <publisher ref="#editore_cursi">Colombo Cursi &amp; Figli Editore</publisher>
+              <date>1987</date>
+            </imprint>
+          </monogr>
+
+          <series xml:id="info_serie">
+            <title xml:id="nome_serie">I Libretti di Mal'aria</title>
+            <biblScope unit="issue" xml:id="numero_serie">374</biblScope>
+          </series>
+
+        </biblStruct>
+        
+        <msDesc xml:id="descrizione_esemplari">
+          <msIdentifier>
+            <country key="it">Italia</country>
+            <region type="provincia" key="GR">Grosseto</region>
+            <settlement  type="città">Albinia</settlement>
+            <collection>
+              Collezione Privata di <persName sameAs="#curatore_digitale">Lorenzo Calvisi</persName>.
+            </collection>
+          </msIdentifier>
+          
+          <msContents xml:id="esemplare_1_contenuto">
+            <msItem n="1" corresp="#frontespizio">
+              <note>Indicazione del titolo e del numero occupato all"interno della serie.</note>
+            </msItem>
+            <msItem n="2" corresp="#pagina_disegno">
+              <note>Illustrazione con indicazione dell"autore.</note>
+            </msItem>
+            <msItem n="3" corresp="#pagina_poesie">
+              <p>Le tre poesie, il contenuto principale.</p>
+            </msItem>
+            <msItem n="4" corresp="#pagina_prosa">
+              <note corresp="#pensiero_in_prosa">Pensiero in prosa dell"autore.</note>
+              <colophon xml:id="colophon">
+                <pc type="omotetia">∻</pc> <date when="1987" xml:id="anno_di_stampa">1987</date> <pc type="omotetia">∻</pc> 
+                Di questo libretto<pc type="virgola">,</pc> sono state impresse <num value="500">cinquecento</num>
+                <lb />copie ad opera precisa e munifica<pc type="virgola">,</pc> con fotocomposizione
+                <lb /><orgName ref="#fotocompositore_cgcompos">Cgcompos</orgName><pc type="virgola">,</pc> dalla stamperia di 
+                <orgName ref="editore">
+                  <persName>
+                    <abbr type="iniziali">C <pc type="punto_fermo">.</pc></abbr> Cursi
+                  </persName> 
+                  &amp; <abbr>F <pc type="punto_fermo">.</pc></abbr> <roleName>editori</roleName>
+                </orgName> a <placeName>Pisa</placeName><pc type="punto_fermo">.</pc>
+              </colophon>
+            </msItem>
+          </msContents>
+          
+          <physDesc xml:id="esemplare_1">
+            <objectDesc form="foglio_ripiegato">
+              <supportDesc>
+                <support> 
+                  <material>Carta martellata</material> di colore rosa.
+                </support>
+                <extent>
+                  <measure unit="page" quantity="4">Quattro pagine</measure>
+                  <dimensions scope="all" type="leaves" unit="cm">
+                    <width>14.6</width>
+                    <height>10</height>
+                  </dimensions>
+                  <note>
+                    <p>
+                    Il foglio, ripiegato due volte, presente quattro riquadri per lato, dunque otto in totale.
+                    Consideriamo qui "pagina" ognuno di questi riquadri recanti un qualche segno tipografico.
+                    </p>
+                  </note>          
+                </extent>
+                <foliation>
+                  <p>
+                    Le pagine sono prive di numerazione.
+                  </p>
+                </foliation>
+                <collation>
+                  <p>
+                    Il documento è costituito da un foglio unico ripiegato due volte, in modo da fornire quattro riquadri per lato.
+                  </p>
+                </collation>
+                <condition>
+                  Le condizioni di conservazione sono complessivamente buone, con l'eccezione di alcune macchie e della parziale sbiaditura dell"inchiostro di certe lettere.
+                  Una macchia rilevante è a livello del titolo.
+                </condition>
+              </supportDesc>
+
+              <layoutDesc>
+                <summary>Layout complessivamente semplice, tutto su una colonna</summary>
+                <layout corresp="#frontespizio" columns="1" writtenLines="6">
+                  <p>
+                    Tutto su una colonna, l'indicazione della serie si trova dopo un ampio spazio bianco.
+                  </p>
+                </layout>
+                <layout corresp="#pagina_1" columns="1" writtenLines="1">
+                  <p>
+                    L'intera pagina è occupata da un'illustrazione a cui fa seguito l'indicazione dell'<roleName ref="#giovanni_frangi">illustratore</roleName>.
+                  </p>
+                </layout>
+                <layout corresp="#pagina_2" columns="1" writtenLines="21">
+                  <p>
+                    Tre blocchi di testo in versi a cui fa seguito, sulla destra, la firma dell"<roleName ref="#fulvio_panzieri">autore</roleName>.
+                  </p>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            
+            <typeDesc> <!-- Descrizione della font -->
+              <summary>Il carattere è probabilmente <name ref="elongated_roman_font">Elongated Roman</name>, con la <mentioned>R</mentioned> e la <mentioned>A</mentioned> maiuscole occasionalmente modificate. </summary>
+              <typeNote xml:id="elongated_roman_font" cert="probabile">Elongated Roman verde, con alcune lettere modificate.</typeNote>
+            </typeDesc>
+          </physDesc>
+
+          <physDesc xml:id="esemplare_due">
+            <p>Il secondo esemplare è analogo al primo, con le seguenti eccezioni:
+              <list xml:id="lista_differenze_esemplari">
+                <item n="1"></item>
+              </list>
+            </p>
+          </physDesc>
+
+          <history>
+            <origin>
+              Il libretto è stato stampato dalla tipografia di <orgName ref="editore_cursi">Colombo Cursi &amp; Figlio Editori</orgName>.
+            </origin>
+            <acquisition>
+              Acquistato da un libraio di <placeName sameAs="#pisa">Pisa</placeName> in data <date when="2024-02-06">06 Febbraio 2024</date>.
+            </acquisition>
+          </history>
+        </msDesc>
+      </sourceDesc>
+      <!-- Fine descrizione del documento fisico -->
+    </fileDesc>
+    
+    
+    <encodingDesc>
+      <!-- Da ritornarvi a codifica ultimata -->
+      <projectDesc>
+        <p>Il progetto riguarda la codifica di due esemplari di un "Libretto di Mal'Aria".</p>
+        <p>
+          Si tratta di due <gi>ephemera</gi> privi di annotazioni manoscritte, perfettamente identici nel contenuto, e che differisco fondamentalmente per lo stato di conservazione.
+          La codifica è stata guidata da alcuni principi e considerazioni:
+          <list>
+            <item n="1">
+              <p>Fedeli a un principio di minimalismo, abbiamo pensato di ridurre al minimo le ripetizioni superflue di codice codificando e descrivendo integralmente l'esemplare n. 1,mentre limitarsi per il secondo a indicare (codificare) gli aspetti in cui differisce dal primo.</p>
+              <p> Ecco perciò che il <mentioned>facsimile</mentioned> n. 1 è assai più ricco del n. 2: nel primo caso è stato codificato ogni caratteristica reputata rilevante, mentre del secondo sono state segnalate solamente le caratteristiche ivi presenti ma assenti nell'altro, ovvero, nel caso specifico, macchie o solchi della carta.</p>
+            </item>
+            <item n="2">
+              <p>Per una ragione di coerenza e leggibilità, abbiamo scelto di inserire i tag <mentioned>damage</mentioned> all'interno del facsimile e non del testo.</p>
+            </item>
+            <item n="3">
+              <p>In virtù dei due principi predetti, di minimalismo e di leggibilità, abbiamo ritenuto opportuno spostare la gran parte dei metadati (ossia, tutti i dati necessari alla comprensione delle entità nominate dalla fonte o in qualche modo a questa legate, ma non in essa citate) in alcuni <mentioned>standOff</mentioned> alla fine del documento</p>
+              <p>Agli elementi ivi contenuti vengono fatti opportuni riferimenti grazie ai tag <mentioned>ref</mentioned>, in aderenza alle <ref target="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/SA.html#SASOstdf">linee guida della TEI sull'argomento</ref>.</p>
+            </item>
+            <item n="4">
+              <p>Con poche eccezioni, abbiamo scelto di adoperare termini italiani come valori degli attributi.</p>
+            </item>
+          </list>
+        </p>
+      </projectDesc>
+      
+      <samplingDecl>
+        <p>È stata effettuata la trascrizione del materiale così come appare, riducendo al minimo le correzioni.</p>
+      </samplingDecl>
+      
+      <editorialDecl>
+        <correction>
+          <p>
+            Per quanto riguarda le correzioni,
+            <list xml:id="lista_correzioni">
+              <item n="1">
+                L'accento acuto della lettera <mentioned>i</mentioned> è stato reso grave: <mentioned>í</mentioned> - &gt; <mentioned>ì</mentioned>
+              </item>
+            </list>
+          </p>
+        </correction>
+    
+        <normalization>
+          <p>
+            Per quanto riguarda la normalizzazione,
+            <list xml:id="lista_normalizzazioni">
+              <item n="1">Nel documento originale, talvolta la medesima lettera è resa graficamente in modi diversi (ad esempio la lettera<gi>R</gi> maiuscola, che è presente in due varianti), mentre in trascrizione di ciò non si tiene conto.</item>
+            </list>
+          </p>
+        </normalization>
+    
+        <punctuation>
+          <p>La punteggiatura non è stata alterata, anche laddove la sintassi corrente avrebbe prescritto una correzione.</p>
+        </punctuation>
+
+        <hyphenation>
+          <p>
+            Per quanto riguarda la sillabazione,
+            <list xml:id="lista_sillabazione">
+              <item n="1">La sillabazione delle parole per il ritorno a capo è rimasta inalterata.</item>
+              <item n="2">Per ogni riga è stato indicato se la fine coincide con la fine di una parola o meno.</item>
+            </list>
+          </p>
+        </hyphenation>
+      </editorialDecl>
+
+      <metDecl>
+        <p>
+          <list xml:id="lista_metrica">
+            <item n="1">È stata indicata la quantità di sillabe di ogni verso.</item>
+            <item n="2">Per ogni strofa è stato indicato il tipo, sulla base della quantità di versi che la compongono.</item>
+            <item n="3">Sono stati indicati gli <foreign xml:lang="fr">enjambemant</foreign>.
+              <note xml:id="nota_enjambemant">
+                Ogni verso che incomincia per lettera minuscola, viene considerato la seconda parte di un <foreign xml:lang="fr">enjambemant</foreign>.
+              </note>
+            </item>
+          </list>
+        </p>
+      </metDecl>  
+    </encodingDesc>
+    
+    <profileDesc>
+      <abstract>
+        <p>
+          Breve pubblicazione contentente tre brevi componimenti di <persName role="author" ref="#fulvio_panzieri">Fulvio Panzeri</persName>, 
+          un suo <ref target="#pensiero_in_prosa">pensiero in prosa</ref>, più un <ref target="#disegno">disegno</ref> di <persName role="illustrator" ref="#giovanni_frangi">Giovanni Frangi</persName>.
+        </p>
+      </abstract>
+      <langUsage>
+        <language ident="it" usage="100">Italiano</language>
+      </langUsage>
+      <textClass>
+        <classCode scheme="http://www.udcc.org">82.1</classCode>
+        <keywords>
+          <list>
+            <item>Poesia</item>
+            <item>Frammento</item>
+            <item>Idee</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  
+  <text xml:lang="it">
+  <front facs="front_page.png" xml:id="frontespizio">
+    <titlePage style="text-align: center" corresp="#strofa_N_verso_N">
+      <docTitle>
+       <titlePart type="main" corresp="#titolo_principale">
+        IDEE PER TRE POESIE
+      </titlePart>
+       <titlePart type="sub" corresp="#sottotitolo">
+        BALENATE A
+        <persName ref="#nome_autore">
+          <forename>FULVIO</forename>
+          <surname>PANZERI</surname>
+        </persName>
+       </titlePart>
+      </docTitle>
+    </titlePage>
+  </front>
+    
+  <body>
+    <div type="pagina" n="1" xml:id="pagina_disegno">
+    <pb n="1" />
+     <figure xml:id="illustrazione_unica">
+      <figDesc>
+          Volto femminile estatico o addormentato, dai tratti sfumati e privo di una chiara cornice, specie nei due lati sinistro e superiore.
+        </figDesc>
+    </figure>
+    
+    <p style="text-align: center" xml:id="didascalia_disegno">DISEGNO DI <persName ref="#nome_illustratore">GIOVANNI FRANGI</persName></p>
+
+  </div>
+
+  <div type="pagina" n="2" xml:id="pagina_poesie" rend="allineamento_sinistra">
+
+    <pb n="2" />
+        <div type="strofa" xml:id="strofa_1">
+          <head style="font-style: oblique" xml:id="strofa_1_titolo">
+            <pc type="parentesi">(</pc>balenìo primo<pc type="parentesi">)</pc>
+          </head>
+          <lg n="1" type="quartina" rhyme="versi_sciolti">
+            <l met="7" n="1" xml:id="strofa_1_verso_1" facs="#verso_1">
+              <said>
+                <pc type="doppi_apici">"</pc>Verrai ancora a trovarmi<pc type="punto_interrogativo">?</pc><pc type="doppi_apici">"</pc>
+              </said>
+            </l>
+            <l met="9" n="2" xml:id="strofa_1_verso_2"> 
+              Ma certo e ti rigrava gli occhi
+            </l>
+            <l met="6" enjamb="yes" n="3" xml:id="strofa_1_verso_3">
+              non di pianto <caesura /><pc type="virgola">,</pc> ma già</l>
+            <l met="10" n="4" xml:id="strofa_1_verso_4">
+              di tenera attesa questo freddo
+            </l>
+          </lg>
+        </div>
+
+        <div type="strofa" xml:id="strofa_2">
+          <head style="font-style: oblique" xml:id="strofa_2_titolo">
+            <pc type="parentesi">(</pc>balenìo secondo<pc type="parentesi">)</pc>
+          </head>
+          <lg n="2" type="quartina" rhyme="versi_sciolti">
+            <l met="8" n="1" xml:id="strofa_2_verso_1">
+              È venuta giù la neve 
+            </l>
+            <l met="7" n="2" xml:id="strofa_2_verso_2">
+              e ha spezzato le rose<pc type="virgola">,</pc>
+            </l>
+            <l met="7" n="3" xml:id="strofa_2_verso_3">
+              bocciòli per gli occhi
+            </l>
+            <l met="9" n="4" xml:id="strofa_2_verso_4">
+              e ha sorpreso le ultime foglie
+            </l>
+          </lg>
+        </div>
+
+        <div type="strofa" xml:id="strofa_3">
+          <head style="font-style: oblique" xml:id="strofa_3_titolo">
+            <pc type="parentesi">(</pc>balenìo terzo<pc type="parentesi">)</pc>
+          </head>
+          <lg n="3" type="enneastrofe" rhyme="versi_sciolti">
+            <l met="5" n="1" xml:id="strofa_3_verso_1">
+              Le acque dell'<geogName ref="#fiume_adda">Adda</geogName>
+            </l>
+            <l met="9" n="2" enjamb="y" xml:id="strofa_3_verso_2">
+              Passano sotto <placeName ref="#ponte_vecchio">Ponte Vecchio</placeName>
+            </l>
+            <l met="7" n="3" xml:id="strofa_3_verso_3">
+              cariche di tristezza
+            </l>
+            <l met="10" n="4" enjamb="y" xml:id="strofa_3_verso_4">
+              Spezzata la linea del lago<pc type="virgola">,</pc>
+            </l>
+            <l met="4" enjamb="y" n="5" xml:id="strofa_3_verso_5">
+              la nostalgìa
+            </l>
+            <l met="7" n="6" xml:id="strofa_3_verso_6">
+              è un filo sul grigio
+            </l>
+            <l met="9" n="7" enjamb="y" xml:id="strofa_3_verso_7">
+              Altro perdersi di pazienza<pc type="virgola">,</pc>
+            </l>
+            <l met="11" n="8" enjamb="y" xml:id="strofa_3_verso_8">
+              ancora trascinarsi <pc type="punto_fermo">.</pc> <caesura />Come l"acqua<pc type="virgola">,</pc>
+            </l>
+            <l met="8" n="9" xml:id="strofa_3_verso_9">
+              nel mormorio del niente<pc type="punto_fermo">.</pc>
+            </l>
+          </lg>
+        </div>
+
+        <signed style="text-align: right;">FULVIO PANZERI</signed>
+      </div>
+      
+      <div xml:id="pagina_prosa" type="pagina">
+       <div xml:id="pensiero_in_prosa">
+        <head style="font-variant: small-caps" xml:id="pensiero_in_prosa_titolo">PENSIERO IN PROSA SUL <pc type="apice_singolo">'</pc>BALENÌO<pc type="apice_singolo">'</pc></head>
+        <p xml:id="pensiero_in_prosa_testo">
+          <w xml:id="balenio">Balenìo</w><pc type="punto_interrogativo">?</pc>
+          <s>
+            Sì<pc type="virgola">,</pc> <w sameAs="balenio">balenìo</w> <cl>perché è proprio<lb break="yes"/> 
+            questo il fondamento della poesia</cl> <pc type="due_punti">:</pc> si <lb break="yes"/>
+            pone nella fulminante ebbrezza che <lb break="yes"/> 
+            <cl>scocca al pensiero</cl><pc type="virgola">,</pc> <cl>incede sulla memoria</cl> <pc type="punto">.</pc> <lb break="yes"/>
+          </s>
+          <s>
+            Tutto <pc>,</pc> nel balenìo della vanità cristallina <lb break="yes"/> 
+            delle cose<pc type="due_punti">:</pc> inquieta<pc type="virgola">,</pc> silente<pc type="virgola">,</pc> rivelata a <lb break="yes"/>
+            benedizione da nient"altro<pc type="virgola">,</pc> se non den- <lb break="no" />
+            tro lo spazio di grazia di Dio<pc type="virgola">.</pc>
+          </s>
+        </p>
+      </div>
+      <signed xml:id="firma_autore">
+        <abbr corresp="#nome_autore" type="acronym" xml:id="iniziali_autore">
+          F<pc type="punto_fermo">.</pc> P<pc type="punto_fermo">.</pc>
+        </abbr> 
+        <date when="1987-02-23" xml:id="data_firma">
+          <num>23</num><pc type="trattino">-</pc><num>2</num><pc type="trattino">-</pc>"<num>87</num>
+        </date>
+      </signed>
+      </div>
+    </body>
+    
+    <back facs="back_page.png">
+    </back>
+  </text>          
+
+  <standOff xml:id="Produzione"> <!-- Entità coinvolte nella produzione del testo -->
+    <listPerson>
+      <!-- Fulvio Panzeri, autore -->
+      <person sex="M" xml:id="autore" role="autore">
+        <persName xml:id="nome_autore">
+          <forename>Fulvio</forename>
+          <surname>Panzieri</surname>
+        </persName>
+        <nationality>italiano</nationality>
+        <birth>
+          <placeName>
+            <settlement type="città">Renate</settlement>
+            <region type="provincia" key="MB">Provincia di Monza e della Brianza</region>
+            <country key="it">Italia</country>
+          </placeName>
+          <date when="1957-02-19">19 Febbraio 1957</date>
+        </birth>
+        <death>
+          <placeName>
+            <settlement type="città">Desio</settlement>
+            <region type="provincia" key="MB">Provincia di Monza e della Brianza</region>
+            <country key="it">Italia</country>
+          </placeName>
+          <date when="2021-10-25">25 Ottobre 2021</date>
+        </death>
+        <occupation>critico letterario</occupation>
+        <occupation>poeta</occupation>
+        <occupation>scrittore</occupation>
+        <occupation>insegnate di scuola elementare</occupation>
+        <note>
+          <ref target="https://it.wikipedia.org/wiki/Giovanni_Frangi">Pagina di Wikipedia</ref>
+        </note>
+      </person>
+      <!-- Giovanni Frangi, illustratore -->
+      <person sex="M" role="illustratore" xml:id="giovanni_frangi">
+        <persName xml:id="nome_illustratore">
+          <forename>Giovanni</forename>
+          <surname>Frangi</surname>
+        </persName>
+        <nationality>italiano</nationality>
+        <birth>
+          <placeName>
+            <region type="provincia" key="MI">Milano</region>
+            <settlement type="città">Milano</settlement>
+            <country key="it">Italia</country>
+          </placeName>
+          <date when="1959-05-12">12 Maggio 1959</date>
+        </birth>
+        <occupation>pittore</occupation>
+        <note>
+          <ref target="https://it.wikipedia.org/wiki/Giovanni_Frangi">Pagina di Wikipedia</ref>
+          <ref target="https://www.giovannifrangi.it/">Sito web personale</ref>  
+        </note>
+      </person>
+    </listPerson>
+
+    <listOrg>
+      <org xml:id="editore_cursi" type="azienda">
+        <orgName>
+          <name>
+            <persName>
+              <forename>Colombo</forename>
+              <surname>Cursi</surname>
+            </persName>
+            &amp; Figli Editori  
+          </name>
+          <address xml:id="indirizzo_editore_cursi">
+            <street>Via Vespucci 109</street>
+            <settlement type="città">Pisa</settlement>
+            <postCode>56125</postCode>
+            <country key="it">Italia</country>
+          </address>
+        </orgName>
+        <desc>
+          Storica casa editrice e tipografia pisana, la cui iscrizione alla Camera di Commercio risale al <date when="1973-01-31">31 Gennaio 1973</date>.
+        </desc>
+      </org>
+      
+      <org xml:id="fotocompositore_cgcompos" type="azienda">
+        <orgName>
+          <name>Cgcompos</name>
+        </orgName>
+        <desc>
+          Divisione della casa editrice addetta esclusivamente di fotocomposizione. Si tratta di una realtà durata pochi anni, che non ha lasciato quasi altra testimonianza che quella dei libretti.
+        </desc>
+      </org>
+    </listOrg>
+  </standOff>
+
+  <standOff xml:id="Curatela"> <!-- Informazioni sui curatori, informazioni personali, luoghi a cui sono legati -->
+    <listPerson>
+      <person xml:id="lorenzo_calvisi" role="curatore" sex="M">
+        <persName xml:id="nome_curatore">
+          <forename>Lorenzo</forename>
+          <surname>Calvisi</surname>
+        </persName>
+        <occupation>
+          <affiliation>          
+            studente dell'<orgName ref="#unipi">Università di Pisa</orgName>
+          </affiliation>
+        </occupation>
+      </person>
+      <person xml:id="angelo_mario_del_grosso" role="supervisore" sex="M">
+        <persName xml:id="nome_supervisore">
+          <roleName role="docente">
+            <abbr type="title">prof.</abbr>
+          </roleName>
+          <forename>Angelo Mario</forename>
+          <surname>Del Grosso</surname>
+        </persName>
+        <occupation>
+          <affiliation>
+            docente presso l'<orgName ref="#unipi">Università di Pisa</orgName>
+          </affiliation>
+        </occupation>
+        <occupation>
+          <affiliation>
+            ricercatore presso il <orgName ref="#cnr_ilc">CNR-ILC</orgName>
+          </affiliation>
+        </occupation>
+      </person>
+    </listPerson>
+
+    <listOrg>
+      <org xml:id="cnr_ilc">
+        <orgName>
+          <name>
+            <abbr type="acronimo" xml:id="cnr">CNR</abbr>-<abbr xml:id="ilc">ILC</abbr>
+            <expan corresp="#cnr">C<ex>entro</ex> N<ex>azionale</ex> delle R<ex>icerche</ex></expan>
+            <expan corresp="#ilc">I<ex>stituto di</ex> di L<ex>inguistica</ex> C<ex>omputazionale</ex></expan>
+          </name>
+          <address>
+            <street>Via Giuseppe Moruzzi 1</street>
+            <postCode>56124</postCode>
+            <settlement type="città" corresp="#pisa">Pisa</settlement>
+          </address>
+        </orgName>
+        <desc>
+          Il Cnr-Istituto di Linguistica Computazionale “Antonio Zampolli” (CNR-ILC) fa parte del Cnr-Dipartimento Scienze Umane e Sociali, Patrimonio Culturale del Consiglio Nazionale delle Ricerche e svolge attività di ricerca nel settore della Linguistica Computazionale. CNR-ILC si occupa inoltre di formazione, trasferimento tecnologico e attività editorali.
+        </desc>
+        <note>
+          <ref target="https://www.ilc.cnr.it/">Sito web</ref>
+        </note>
+      </org>
+
+    </listOrg>
+    
+    <listPlace>
+      <place xml:id="pisa">
+        <placeName>Pisa</placeName>
+        <settlement type="città" xml:id="pisa_città">Pisa</settlement>
+        <region type="provincia" key="PI" sameAs="pisa_città">Pisa</region>
+        <country key="IT">Italia</country>
+      </place>
+    </listPlace>
+  </standOff>
+
+  <standOff xml:id="Testo"> <!-- Entità citate all'interno del testo -->
+    <listPlace>
+      <place xml:id="adda">
+        <geogName>
+          <geogFeat>Fiume</geogFeat>
+          <name>Adda</name>
+        </geogName>
+        <desc>  
+          Fiume che si origina in Val Alpisella (<geo>46.5474987 N 10.2392273 E</geo>) e, attraversando la Lombardia, sfocia nel Po fra Castel Nuovo e Spinadesco (<geo>45.134444N 9.881667E</geo>)
+        </desc>
+        <region type="regione">Lombardia</region>
+        <country key="it">Italia</country>
+      </place>
+      
+      <place xml:id="ponte_vecchio">
+        <placeName>Ponte Vecchio</placeName>
+        <desc>Ponte Vecchio è un ponte storico sul <geogName>fiume Arno</geogName> a <settlement type="città">Firenze</settlement>. Il ponte collega <placeName>via Por Santa Maria</placeName> (angolo lungarno degli Acciaiuoli e lungarno degli Archibusieri) a via de" Guicciardini (angolo borgo San Jacopo e via de" Bardi). </desc>
+        <settlement type="città">Firenze</settlement>
+        <country key="it">Italia</country>
+      </place>
+    </listPlace>
+  </standOff>
+  
+  <facsimile n="1" xml:id="facs_ex_1" corresp="#esemplare_1">
+    <surface n="1" corresp="#frontespizio">
+      <graphic url="src_material/fulvio_panzieri_tre_poesie_ex_1-1.jpg" width="4674px" height="6771px" />
+
+      <zone type="danno" points = " 3575,833 3571,843 3564,855 3568,868 3573,878 3582,884 3593,883 3599,878 3609,874 3618,869 3633,880 3655,864 3638,854 3632,848 3630,839 3621,827 3601,829 "> 
+        <damage agent="ignoto" type="macchia" scope="#esemplare_1" xml:id="macchia_titolo_piccola_ex_1"/> <!-- Macchia piccola -->
+      </zone>
+      <zone type="danno" points = " 3558,733 3531,758 3516,779 3505,807 3516,834 3514,874 3495,896 3471,924 3448,954 3463,984 3466,1013 3444,1035 3416,1059 3377,1080 3327,1095 3320,1129 3326,1173 3367,1179 3407,1207 3456,1198 3474,1182 3484,1172 3497,1167 3512,1168 3526,1188 3538,1210 3560,1233 3595,1243 3621,1216 3650,1197 3687,1148 3645,1129 3669,1106 3678,1076 3629,1036 3621,1010 3645,975 3670,932 3675,874 3648,791 3607,746 ">
+        <damage agent="ignoto" type="macchia" scope="#esemplare_1" xml:id="macchia_titolo_grande_ex_1" /><!-- Macchia grande -->
+      </zone> 
+
+      <zone type="elemento_tipografico" corresp="#titolo_completo" ulx="657" uly="556" lrx="4197" lry="1746">
+        <zone type="elemento_tipografico" corresp="#titolo_principale" ulx="832" uly="585" lrx="3964" lry="1102" /> <!-- Idee per tre poesie -->
+        <zone type="elemento_tipografico" corresp="#sottotitolo" ulx="715" uly="1283" lrx="4113" lry="1701"> <!-- Balenate a -->
+          <zone corresp="#nome_autore" ulx="2195" uly="1292" lrx="4092" lry="1671" /> <!-- Fulvio Panzieri -->
+        </zone>
+      </zone>
+
+      <zone type="elemento_tipografico" corresp="#info_serie" ulx="1664" uly="3822" lrx="3140" lry="5382"> 
+        <zone corresp="#nome_serie" ulx="1857" uly="3837" lrx="2982" lry="4815" /> <!-- I Libretti di Mal'Aria -->
+        <zone corresp="#numero_serie" ulx="2150" uly="4919" lrx="2678" lry="5297" /> <!-- 374 -->
+      </zone>
+    </surface>
+
+    <surface n="2" corresp="#pagina_disegno">
+      <graphic xml:id="disegno" url="src_material/fulvio_panzieri_tre_poesie_ex_1-2.jpg" width="4619px" height="6847px" />
+      <zone type="illustrazione" corresp="#illustrazione_unica" ulx="77" uly="1217" lrx="4500" lry="4973" />
+      <zone type="elemento_tipografico" corresp="#didascalia_disegno" ulx="300" uly="5050" lrx="3764" lry="5480">
+        <zone type="elemento_tipografico" corresp="#nome_illustratore" ulx="1670" uly="5093" lrx="3704" lry="5427" />
+      </zone>
+    </surface>
+
+    <surface n="3" corresp="#pagina_poesie"> <!-- pagina della poesia -->
+      <graphic url="src_material/fulvio_panzieri_tre_poesie_ex_1-3.jpg" width="4634px" height="6786px" />
+      <zone type="strofa" corresp="#strofa_1" n="1" ulx="389" uly="786" lrx="3633" lry="1965">
+        <zone type="titolo_strofa" corresp="#strofa_1_titolo" ulx="427" uly="814" lrx="1888" lry="1020" />
+        <zone xml:id="verso_1" type="verso" n="1" corresp="#strofa_1_verso_1" points = " 654,1083 653,1126 650,1189 659,1236 658,1267 747,1274 804,1276 862,1273 1014,1272 1094,1272 1210,1272 1373,1272 1997,1251 2239,1246 2364,1232 2534,1238 2606,1230 2700,1231 2772,1227 2853,1224 2907,1226 2961,1226 3037,1216 3077,1216 3117,1216 3136,1152 3136,1081 3138,1048 3068,1032 2985,1033 2936,1031 2882,1036 2537,1053 2452,1054 " />
+        <zone type="verso" n="2" corresp="#strofa_1_verso_1" points = " 634,1311 626,1376 628,1430 624,1467 680,1494 740,1479 789,1479 871,1486 908,1484 1042,1482 1122,1482 1242,1482 1362,1482 1570,1469 1770,1469 1930,1469 2017,1464 2095,1495 2154,1456 2211,1450 2291,1450 2451,1450 2492,1448 2517,1476 2549,1480 2587,1470 2604,1454 2636,1434 2767,1424 2869,1430 2976,1422 3053,1428 3099,1422 3139,1422 3179,1422 3219,1422 3259,1422 3279,1401 3275,1370 3274,1333 3276,1295 3277,1256 3236,1229 3203,1227 3195,1227 3150,1233 3070,1273 2990,1273 2950,1273 2875,1273 2710,1273 2604,1274 2551,1282 2501,1280 2399,1282 2344,1292 2291,1293 2177,1293 2115,1297 1998,1295 1945,1294 1864,1291 1765,1298 1719,1299 1595,1300 1475,1300 1399,1300 1315,1300 1275,1300 1195,1300 1035,1300 955,1300 675,1300 " />
+        <zone type="verso" n="3" corresp="#strofa_1_verso_1" points = " 641,1522 644,1573 648,1642 660,1707 705,1709 745,1709 785,1709 825,1709 865,1709 905,1709 945,1709 985,1709 1025,1709 1065,1709 1105,1709 1145,1709 1185,1709 1225,1709 1262,1709 1305,1709 1377,1728 1431,1715 1476,1699 1518,1701 1561,1701 1601,1701 1641,1701 1681,1701 1719,1701 1758,1701 1798,1701 1841,1701 1881,1701 1921,1701 1961,1701 2001,1701 2041,1701 2081,1701 2121,1701 2161,1701 2201,1701 2233,1701 2279,1701 2286,1701 2321,1701 2361,1701 2395,1701 2441,1701 2478,1701 2521,1701 2552,1701 2598,1701 2636,1701 2681,1701 2681,1701 2679,1643 2692,1587 2669,1508 2635,1485 2606,1473 2524,1487 2480,1503 2440,1503 2400,1503 2336,1506 2296,1506 2256,1506 2096,1506 1816,1506 1776,1506 1736,1506 1616,1506 1488,1493 1449,1510 1243,1499 1172,1497 1133,1518 973,1518 933,1518 893,1518 853,1518 773,1518 693,1518 " />
+        <zone type="verso" n="4" corresp="#strofa_1_verso_1" points = " 656,1728 641,1798 643,1891 754,1920 914,1920 1194,1920 1314,1920 1754,1920 2234,1920 2318,1894 2426,1875 3130,1875 3291,1873 3390,1844 3395,1761 3375,1717 3339,1705 3273,1650 3202,1644 3082,1651 3048,1685 2994,1691 2947,1683 2843,1668 2687,1726 2613,1736 2301,1737 1868,1742 1669,1743 1509,1743 1397,1757 1354,1754 1305,1746 1225,1750 1025,1750 869,1750 791,1729 711,1729 " />  
+      </zone>
+      <zone ulx="375" uly="2008" lrx="3579" lry="3172" type="strofa" corresp="#strofa_2" n="2">
+        <zone type="titolo_strofa" corresp="#strofa_2_titolo" ulx="413" uly="2042" lrx="2065" lry="2246" />
+        <zone type="verso" n="1" corresp="#strofa_2_verso_1" points = " 646,2288 636,2313 633,2363 639,2420 639,2488 680,2517 728,2514 778,2519 842,2506 929,2500 1368,2500 1530,2500 1605,2526 1679,2486 1733,2482 1785,2470 1938,2460 2033,2465 2211,2454 2321,2454 2430,2458 2502,2450 2565,2443 2573,2381 2552,2334 2467,2327 2231,2331 2058,2346 2018,2342 1936,2274 1831,2338 1757,2291 1649,2288 1604,2324 1497,2348 1320,2347 1200,2347 800,2347 723,2277 669,2276 " />
+        <zone type="verso" n="2" corresp="#strofa_2_verso_2" points = " 661,2586 660,2626 662,2691 721,2711 868,2705 914,2698 1005,2701 1165,2701 1246,2705 1276,2694 1337,2684 1383,2687 1447,2699 1567,2699 1843,2699 1887,2699 2006,2680 2108,2677 2245,2669 2356,2666 2444,2673 2529,2667 2605,2696 2631,2634 2629,2574 2548,2539 2392,2513 2275,2525 2131,2525 2001,2485 1940,2539 1803,2550 1675,2545 1555,2545 1435,2545 1155,2545 995,2545 869,2514 835,2545 755,2563 690,2569 " />
+        <zone type="verso" n="3" corresp="#strofa_2_verso_3" points = " 661,2740 656,2766 657,2806 661,2870 661,2922 694,2935 735,2932 793,2930 847,2922 931,2926 992,2924 1056,2927 1114,2923 1168,2915 1220,2914 1290,2908 1341,2914 1412,2920 1459,2951 1497,2954 1527,2922 1592,2897 1654,2903 1687,2903 1741,2901 1778,2903 1807,2901 1863,2944 1909,2935 1945,2907 2002,2901 2080,2901 2206,2901 2322,2901 2442,2901 2536,2893 2695,2893 2688,2813 2667,2752 2552,2694 2469,2690 2374,2695 2322,2727 2260,2735 2192,2733 2115,2727 2013,2700 1927,2715 1892,2755 1805,2757 1699,2756 1619,2756 1500,2756 1379,2756 1342,2713 1200,2725 1055,2733 935,2733 695,2733 " />
+        <zone type="verso" n="4" corresp="#strofa_2_verso_4" points = " 682,2960 682,3013 678,3087 691,3144 775,3142 874,3136 954,3136 994,3136 1034,3136 1114,3136 1234,3136 1354,3136 1432,3174 1519,3128 1605,3116 1721,3123 1833,3117 1991,3128 2086,3110 2246,3110 2366,3110 2486,3110 2629,3110 2756,3110 2926,3110 3006,3110 3079,3139 3181,3087 3229,3086 3346,3089 3377,2998 3384,2951 3302,2926 3252,2877 3153,2869 3091,2900 3032,2927 2952,2884 2878,2882 2792,2938 2671,2949 2541,2943 2479,2915 2444,2945 2407,2947 2331,2916 2308,2953 2250,2971 2199,2966 2119,2966 2039,2966 1989,2917 1904,2967 1824,2967 1784,2967 1704,2967 1589,2967 1501,2966 1443,2971 1403,2971 1204,2971 1123,2971 1003,2971 932,2975 885,2938 806,2958 726,2958 " />
+      </zone>
+      <zone type="strofa" corresp="#strofa_3" n="3" ulx="2051" uly="5696" lrx="4195" lry="6180">
+        <zone type="titolo_strofa" corresp="#strofa_3_titolo" ulx="450" uly="3251" lrx="1854" lry="3452" />
+        <zone type="verso" n="1" corresp="#strofa_3_verso_1" points = " 656,3567 660,3724 858,3734 1052,3731 1156,3724 1256,3758 1324,3718 1437,3717 1625,3715 1751,3710 2419,3693 2428,3581 2366,3533 2292,3474 2183,3481 2015,3486 1822,3493 1634,3499 1446,3522 1300,3546 1199,3569 1088,3558 1020,3578 940,3578 863,3574 730,3539 682,3536 " />
+        <zone type="verso" n="2" corresp="#strofa_3_verso_2" points = " 685,3802 943,3794 1147,3790 1287,3786 1471,3774 1672,3763 1846,3764 2001,3724 2150,3761 2279,3760 2405,3756 2483,3759 2493,3871 2476,3904 1188,3930 956,3936 800,3939 754,3992 690,3992 684,3870 " />
+        <zone type="verso" n="3" corresp="#strofa_3_verso_3" points = " 697,4125 692,4051 758,4023 802,3995 855,3998 916,4003 954,3993 993,3953 1033,3976 1088,3994 1103,3959 1168,3952 1161,4000 1271,4000 1367,4007 1447,4006 1585,3943 1644,4005 1727,3990 1798,3982 1847,3930 1900,3983 2026,3984 2124,3986 2252,3969 2363,3973 2416,3996 2409,4102 2311,4110 2197,4109 2032,4127 1861,4120 1702,4130 1559,4131 1439,4132 1286,4132 1129,4141 973,4150 806,4145 753,4165 " />
+        <zone type="verso" n="4" corresp="#strofa_3_verso_4" points = " 701,4178 1500,4182 1597,4155 1661,4170 1827,4143 1950,4143 2019,4185 2132,4184 2292,4184 2394,4127 2554,4103 2598,4264 2603,4325 1471,4341 915,4365 849,4415 773,4378 711,4359 685,4266 " />
+        <zone type="verso" n="5" corresp="#strofa_3_verso_5" points = " 703,4520 731,4379 797,4411 863,4457 980,4447 1093,4438 1185,4432 1282,4429 1381,4432 1432,4360 1465,4361 1495,4399 1584,4398 1625,4378 1659,4377 1664,4397 1659,4425 1717,4413 1746,4446 1736,4497 1747,4535 1719,4563 1621,4567 1529,4607 1454,4601 1450,4562 1351,4544 1233,4576 1149,4562 1056,4553 973,4568 899,4568 810,4572 691,4575 " />
+        <zone type="verso" n="6" corresp="#strofa_3_verso_6" points = " 682,4602 698,4793 1715,4767 1985,4818 2089,4777 2168,4778 2199,4787 2259,4794 2301,4768 2376,4759 2433,4752 2470,4718 2451,4652 2444,4641 2391,4603 2347,4590 2326,4562 2273,4556 2126,4545 1956,4541 1756,4587 1614,4610 1487,4636 1426,4600 1324,4582 1199,4620 1057,4625 917,4634 797,4634 748,4605 " />
+        <zone type="verso" n="7" corresp="#strofa_3_verso_7" points = " 700,4813 1585,4788 1701,4795 1904,4827 2099,4797 2239,4799 2331,4822 2651,4822 2811,4822 3106,4834 3113,4897 3105,4959 2435,4970 2351,5021 2277,4983 2101,4977 1741,4977 1541,4977 1306,5033 1203,5029 1116,4998 996,4998 844,4998 730,4998 690,4891 " />
+        <zone type="verso" n="8" corresp="#strofa_3_verso_8" points = " 712,5077 714,5143 717,5221 797,5221 1037,5221 1517,5221 1903,5199 2050,5204 2244,5204 2970,5204 3178,5199 3336,5197 3402,5231 3481,5165 3597,5157 3690,5179 3654,5077 3534,4992 3309,4984 3091,4978 2993,4989 2919,5016 2874,5019 2754,5019 2554,5019 2440,4996 2372,5048 2332,5048 2265,5045 2208,4987 2178,5009 1933,5024 1815,4994 1710,5039 1620,5049 1580,5049 1460,5049 1300,5049 1170,5049 990,5049 900,5049 780,5049 700,5049 " />
+        <zone type="verso" n="9" corresp="#strofa_3_verso_9" points = " 729,5240 1274,5238 1875,5226 2182,5218 2400,5218 2783,5214 2981,5219 2992,5352 2880,5407 2686,5398 2493,5426 2133,5426 1693,5426 1174,5426 1013,5426 803,5434 700,5337 " />  
+      </zone>
+      <zone ulx="2139" uly="5688" lrx="4095" lry="6188" corresp="#nome_autore"/> <!-- Firma Autore -->
+    </surface>
+    <surface n="4" corresp="#pagina_prosa">
+      <graphic url="src_material/fulvio_panzieri_tre_poesie_ex_1-4.jpg" width='4634px' height='6741px' />
+      <zone ulx="705" uly="633" lrx="4041" lry="895" type="elemento_tipografico" corresp="#pensiero_in_prosa_titolo" />
+      <zone type="paragrafo" corresp="#pensiero_in_prosa_testo">
+        <zone type="riga" ulx="741" uly="997" lrx="4083" lry="1195" />
+        <zone type="riga" ulx="757" uly="1249" lrx="4055" lry="1397" />
+        <zone type="riga" ulx="761" uly="1469" lrx="4061" lry="1633" />
+        <zone type="riga" ulx="773" uly="1685" lrx="4013" lry="1849" />
+        <zone type="riga" ulx="779" uly="1887" lrx="4025" lry="2035" />
+        <zone type="riga" ulx="807" uly="2097" lrx="4051" lry="2239" />
+        <zone type="riga" ulx="835" uly="2315" lrx="4063" lry="2451" />
+        <zone type="riga"  ulx="841" uly="2553" lrx="3271" lry="2687" />
+      </zone>
+      
+      <zone corresp="#firma_autore" ulx="2937" uly="2761" lrx="4045" lry="2995">
+        <zone corresp="#iniziali_autore" ulx="3010" uly="2775" lrx="3298" lry="2935" />
+        <zone corresp="#data_firma" ulx="3338" uly="2776" lrx="4034" lry="2929" />
+      </zone>
+      <zone ulx="719" uly="5373" lrx="4215" lry="5906" type="elemento_tipografico" corresp="#colophon">
+        <zone corresp="#data_stampa" />
+        <zone type="riga" n="1" points = ' 1379,5409 1373,5551 2609,5517 3843,5493 4197,5485 4235,5477 4231,5393 4135,5367 3451,5371 2401,5387 1945,5385 1433,5411 ' /> <!-- -->
+        <zone type="riga" n="1" points = ' 789,5603 785,5681 889,5677 941,5701 995,5685 1429,5663 1447,5677 1495,5659 1631,5661 1771,5673 1807,5655 2135,5647 2257,5645 2393,5647 3155,5623 4199,5599 4225,5515 3261,5513 3143,5545 2733,5531 2615,5537 2363,5565 2021,5539 1297,5561 1029,5565 839,5571 ' />
+        <zone type="riga" n="1" points = ' 785,5701 799,5817 923,5823 3657,5761 4063,5749 4077,5649 3991,5617 3849,5621 3789,5649 3719,5659 3643,5615 3551,5639 3413,5633 3325,5645 3221,5639 2655,5659 2359,5657 2185,5653 1783,5687 1729,5693 1623,5693 1587,5667 1521,5673 1499,5695 1437,5679 1315,5705 913,5723 879,5693 ' />
+        <zone type="danno" corresp="#macchia_colophon_ex_1" ulx="4227" uly="5539" lrx="4330" lry="5635">
+          <damage agent="ignoto" type="macchia" scope="#esemplare_1" xml:id="macchia_colophon_ex_1" />
+        </zone>
+      </zone>
+    </surface>
+  </facsimile>
+
+  <facsimile n="2" xml:id="facs_ex_2" corresp="#esemplare_2">
+      <surface n="1">
+        <graphic url='src_material/fulvio_panzieri_tre_poesie_ex_2-1.jpg' width='4629.33334px' height='6756.33334px' />
+        <zone type="danno" ulx="1678" uly="1055" lrx="1770" lry="1125" /> <!-- macchia sotto titolo -->
+        <zone type="danno" ulx="2730" uly="4167" lrx="2860" lry="4294" /> <!-- macchia vicino al nome della collana -->
+      </surface>
+      <surface n="2">
+        <graphic url='src_material/fulvio_panzieri_tre_poesie_ex_2-2.jpg' width='4690.33334px' height='6756.33334px' />
+        <zone type="danno" points = ' 4517,3951 4560,3491 2180,1105 1890,1301 '> 
+          <damage xml:id="solco_disegno" scope="#esemplare_2" type="solco" agent="sconosciuto" /> <!-- Piega sul disegno-->
+        </zone>
+        <zone type="danno" ulx="77" uly="566" lrx="580" lry="846">
+          <!-- Macchia in alto -->
+        </zone> 
+        <zone type="danno" ulx="3237" uly="766" lrx="3510" lry="1023" /> <!-- Macchia più in basso -->
+      </surface>
+      <surface n="3">
+        <graphic url='src_material/fulvio_panzieri_tre_poesie_ex_2-3.jpg' width='4690.33334px' height='6756.33334px' />
+        <zone type="danno" points = ' 237,3875 500,3598 727,3665 1894,4678 1314,4911 '> 
+          <damage xml:id="solco_terza_strofa" scope="#esemplare_2" type="solco" agent="sconosciuto" /> <!-- solco -->
+        </zone>
+        <zone type="danno" ulx="2547" uly="1326" lrx="2867" lry="1589"> <!-- Macchia su "gli", verso -->
+          <damage xml:id="macchia_su_gli" agent="sconosciuto" type="macchia" scope="#esemplare_2" />
+        </zone>
+        <zone type="danno" ulx="3907" uly="2299" lrx="4167" lry="2603"> <!-- Macchia vicino "È venuta giù la neve"-->
+          <damage xml:id="macchia_neve" agent="sconosciuto" type="macchia" scope="#esemplare_2" />
+        </zone>
+        <zone type="danno" ulx="2500" uly="4651" lrx="2757" lry="4838"> <!-- Macchia vicino "grigio" -->
+          <damage xml:id="macchia_grigio" agent="sconosciuto" type="macchia" scope="#esemplare_2"/>
+        </zone>
+        <zone type="danno" ulx="357" uly="4978" lrx="474" lry="5111" > <!-- Macchia alla sinistra di "Altro" -->
+          <damage xml:id="macchia_altro" agent="sconosciuto" type="macchia" scope="#esemplare_2" />
+        </zone>
+        <zone type="danno" ulx="1577" uly="2310" lrx="1727" lry="2423">
+          <damage xml:id="macchia_sotto_lettera" agent="sconosciuto" type="macchia" scope="#esemplare_2" /> <!-- Macchia sotto la "o" di "secondo" in "balenio secondo"-->
+        </zone> 
+        <zone type="danno" ulx="1650" uly="3404" lrx="1700" lry="3461">
+          <damage xml:id="macchia_terzo" agent="sconosciuto" type="macchia" scope="#esemplare_2" /><!-- Macchia vicino alla "z" di "balenio terzo"-->
+        </zone> 
+      </surface>
+      <surface n="4">
+        <graphic url='src_material/fulvio_panzieri_tre_poesie_ex_2-4.jpg' width='4690.33334px' height='6756.33334px' />
+        <zone type="danno" points = ' 1270,6737 864,546 1267,526 1620,5593 1510,6747 '>
+          <damage xml:id="solco_colophon" scope="#esemplare_2" type="solco" agent="sconosciuto" /> <!-- solco -->
+        </zone>
+      </surface>
+  </facsimile>
+</TEI>
