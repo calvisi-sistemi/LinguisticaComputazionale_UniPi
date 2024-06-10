@@ -43,16 +43,6 @@
             <surname>Calvisi</surname>
           </persName>
         </respStmt>
-        <respStmt xml:id="supervisione">
-          <resp>sotto la supervisione del</resp>
-          <persName ref="angelo_mario_del_grosso">
-            <roleName role="docente">
-              <abbr type="title">prof.</abbr>
-            </roleName>
-             <forename>Angelo Mario</forename>
-             <surname>Del Grosso</surname>
-         </persName>
-        </respStmt>
       </editionStmt>
       <!-- Fine informazioni sull"edizione -->
 
