@@ -1,0 +1,16 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "calvisisistemi.it",
+            "port": 3306,
+            "driver": "MariaDB",
+            "name": "Database Idearium",
+            "database": "u716196361_progetto_bdd",
+            "username": "u716196361_bdd_project"
+        }
+    ]
+}
