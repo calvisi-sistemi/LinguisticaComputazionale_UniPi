@@ -1,0 +1,23 @@
+DELIMITER //
+
+CREATE TRIGGER impedisci_auto_iscrizione
+-- Quando un utente vuole iscriversi a un blog
+BEFORE INSERT ON Iscrizioni
+FOR EACH ROW
+BEGIN
+    DECLARE blog_owner INT;
+   
+   -- Trova il nome dell'amministratore del blog a cui l'utente corrente ha chiesto di iscriversi
+    SELECT nome_amministratore_blog INTO blog_owner FROM Blog 
+   	WHERE Blog.id_blog = NEW.id_blog_iscrizione;
+   
+   -- Se l'amministratore del blog sta cercando di iscriversi a un proprio blog
+   IF NEW.nome_utente_iscritto = blog_owner THEN
+   		-- Solleva un errore
+        SIGNAL SQLSTATE '45000'
+        SET MESSAGE_TEXT = 'L\'utente non può iscriversi al proprio blog';
+    END IF;
+END;
+//
+
+DELIMITER ;
